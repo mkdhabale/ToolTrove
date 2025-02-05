@@ -1,0 +1,86 @@
+.AppWeatherDv {
+  @media (min-width: 992px) {
+    .col-center {
+      width: 50%; /* On large screens, column takes 50% of the row */
+    }
+  }
+}
+
+.weather-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.col-center {
+  max-width: 800px !important; /* Limit column width for larger screens */
+}
+.weather-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.weather-summary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.weather-summary h2 {
+  font-size: 1.6rem;
+  color: #007bff;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-detail {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 28%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-detail h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.weather-detail p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.sun-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.sun-info div {
+  text-align: center;
+}
+
+.sun-info h3 {
+  color: #007bff;
+}
+
+.sun-info p {
+  color: #555;
+}

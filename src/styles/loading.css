@@ -1,0 +1,14 @@
+/* Add this to your App.css */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  flex-direction: column;
+}
+
+.loading-container p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}

@@ -1,0 +1,71 @@
+/* Navigation.css */
+
+/* Style for the secondary navigation bar */
+.contactdv {
+  nav {
+    background-color: #f4f4f4; /* Light background color */
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the nav bar */
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+  }
+
+  /* Title for secondary menu */
+  nav .title {
+    color: #333; /* Darker text for contrast */
+    font-size: 18px; /* Smaller font size for secondary menu */
+    font-weight: normal; /* Lighter font weight for secondary */
+    text-align: left;
+  }
+
+  /* Style for the navigation list */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  /* Style for each navigation link */
+  nav li {
+    margin: 0 12px; /* Reduced margin for a more compact look */
+  }
+
+  /* Style for each Link inside the nav */
+  nav a {
+    color: #333; /* Dark text for links */
+    text-decoration: none;
+    font-size: 14px; /* Smaller font size for secondary menu */
+    font-weight: normal; /* Lighter font weight for secondary */
+    transition: color 0.3s ease;
+    padding: 6px 10px; /* Add some padding for better clickability */
+    border-radius: 5px; /* Rounded corners for the links */
+  }
+
+  /* Hover effect on Links */
+  nav a:hover {
+    color: #f0a500; /* Hover color */
+    background-color: rgba(
+      240,
+      165,
+      0,
+      0.1
+    ); /* Subtle background change on hover */
+  }
+
+  /* Make sure to give some space between the links */
+  nav li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  /* Optional: Style for active link */
+  nav a.active {
+    font-weight: bold;
+    color: #f0a500; /* Active link color */
+  }
+}

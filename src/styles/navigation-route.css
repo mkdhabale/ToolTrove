@@ -1,0 +1,66 @@
+/* Navigation.css */
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between the title and the links */
+  /*max-width: 1200px;*/ /* You can adjust this value to your preference */
+  margin: 0 auto; /* Center the nav bar */
+}
+
+/* Style for the navigation list */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+  flex-grow: 1; /* Allow the links to expand, filling the available space */
+}
+
+/* Style for each navigation link */
+nav li {
+  margin: 0 15px;
+}
+
+/* Style for each Link inside the nav */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on Links */
+nav a:hover {
+  color: #f0a500;
+}
+
+/* Title style */
+nav .title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left; /* Title aligned left */
+}
+
+/* Make sure to give some space between the links */
+nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* Optional: Style for active link */
+nav .active {
+  font-weight: bold;
+  color: #f0a500; /* Active link color */
+  background-color: rgba(240, 165, 0, 0.1); /* Active background color */
+}
+
+/* Right-aligned Contact link */
+.nav-links .navlink-right {
+  margin-left: auto; /* Push the "Contact" item to the right */
+}

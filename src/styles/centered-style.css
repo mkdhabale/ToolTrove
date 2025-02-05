@@ -1,0 +1,28 @@
+/* Container (Row) */
+
+.row-center {
+  display: flex;
+  justify-content: center; /* Centers the column horizontally */
+  align-items: center; /* Centers the column vertically (optional) */
+  margin: 0; /* Remove any default margin */
+}
+
+/* Column (Col) */
+.col-center {
+  width: 100%; /* Default to 100% width on small screens */
+  max-width: 400px; /* Limit column width for larger screens */
+  padding: 10px; /* Add some padding for spacing inside the column */
+}
+
+/* Responsive Styles */
+@media (min-width: 576px) {
+  .col-center {
+    width: 50%; /* On medium screens, column takes 50% of the row */
+  }
+}
+
+@media (min-width: 992px) {
+  .col-center {
+    width: 33%; /* On large screens, column takes 33% of the row */
+  }
+}
