@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <RegisterRoutes></RegisterRoutes>
-      <Footer email="mukul.dhabale@gmail.com" phone="259936">
+      <Footer email="mukul.dhabale@gmail.com" phone="2599361">
         <FontAwesomeIcon icon={faCopyright} />
       </Footer>
     </div>
